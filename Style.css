@@ -1,0 +1,27 @@
+         a:link {
+       color: blue;
+     }
+     a:hover {
+       color: orange;
+     }
+     a:visited {
+      color: green;
+    }
+    
+    #Para1 {
+      color: red;
+      text-align: center;
+      border: 5px solid blue
+    }
+    
+    .Para2 {
+      background-color: black;
+      text-align: left;
+      color: white;
+      border: 5px solid red;
+      border-radius: 25px;
+    }
+    #Para3 {
+      font-family: impact, charcoal, sans-serif;
+      color: #ffcc00;
+    }
