@@ -1,0 +1,564 @@
+                     <!DOCTYPE html>
+  <html>
+    <head>
+      
+      <title>Choose Your own Adventure</title>
+      
+      <link href="Style.css" rel="stylesheet" type="text/css">
+      
+    </head>
+  
+    <body>
+<style>
+  #robbery  {
+  font-size: 50px;
+  font-weight: bold;
+  color: gold;
+  background-color: black;
+  font-family: "Times New Roman";
+  font-style: italic;
+      }
+    
+#woods {
+        font-size: 50px;
+        font-weight: bold;
+        color:green;
+        background-color: lightblue;
+        text-decoration: underline;
+        font-family: sans-serif;
+        text-align: left;
+}
+
+#football {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  background-color: purple;
+  text-decoration: overline;
+  font-family: serif
+}
+
+img {
+  border-radius: 10px;
+}
+</style>
+
+<button id="robbery">Jewelry store robbery</button>
+<button id="woods">Lost in the woods</button>
+<button id="football">Football Game</button>
+
+<p><img src="https://www.google.com/imgres?imgurl=http%3A%2F%2Fweknowyourdreams.com%2Fimages%2Fjewelry%2Fjewelry-06.jpg&imgrefurl=http%3A%2F%2Fweknowyourdreams.com%2Fjewelry.html&docid=N0mLwf2000yTcM&tbnid=Rq6sEvTq17HI5M%3A&vet=10ahUKEwic4u6Q-fzTAhVK_WMKHaZ0A7cQMwihASgFMAU..i&w=3507&h=2224&bih=855&biw=1440&q=jewelry&ved=0ahUKEwic4u6Q-fzTAhVK_WMKHaZ0A7cQMwihASgFMAU&iact=mrc&uact=8" alt="Jewelry" style="width: 275px; height: 225px; float:left"></p>
+<p><img src="robber.jpg" alt="Robber" style="width: 250px; height: 225px; float:right"></p>
+<p><img src="Woods.jpg" alt="Woods" style="width: 275px; height: 225px; float:left"></p>
+<p><img src="river.jpg" alt="River" style="width: 250px; height: 225px; float:right"></p>
+<p><img src="Football.jpg" alt="Fotball" style="width: 250px; height: 225px; float:left"></p>
+<p><img src="Field.jpg" alt="Football Field" style="width: 300px; height: 2025x; float:right"></p>
+
+<script type="text/javascript">
+  
+    alert("Welcome to choose your own adventure. Click the 'Jewelry store robbery' to play jewelry store robbery. Click the 'Lost in the woods' button to play lost in the woods. Click 'Football Game' to play football.");
+  
+    document.getElementById("robbery").onclick = function() {  
+              
+      var start = prompt("Ok lets go! type 'window' to smash the window. Type 'back door' to check the back door");
+      if (start == "window") {
+        alert("you got in the store, but set off the alarms. The police are on there way")
+              }
+      else {
+        alert("you made it in safely. good job.")
+      }
+      var steal = prompt("Type 'jewelry' to steal some jewelry. Type 'cash' to open the cash register'");
+      if (steal == "jewelry") {
+        alert("You were able to steal $10,000 in jewelry")
+      }
+      else {
+        alert("The cash register was empty")
+      }
+      var leave = prompt("Type 'stay' if you want to look for more to steal. Type 'leave' if you want to leave the store");
+      if (leave == "stay") {
+        alert("You found another $5,000 in cash then left. However in the time you were there someone called the cops on you.")
+      }
+      else {
+        alert("You made it out, but the cops are hot on your trail")
+      }
+      var place = prompt("Type 'friend' to head to a friends house. Type 'home' to head back to your home.")
+      if (place == "friend") {
+        alert("Your friend wasn't home. The police gain some ground on you and you head to your house")
+        }
+      else {
+        alert("You begin heading home")
+      }
+      var light = prompt("You aproach a light right as it is turning red. Type 'go' to go through it. Type 'stop' to stop at it")
+      if (light == "go") {
+        alert ("You make it through the light but a car clips your back side slowing down your car")  
+      }
+      else {
+        alert("Your car remains intact but the cops are right behind you")
+      }
+      var direction = prompt("The cops have caught up with you. Type 'forward' to floor it and go forward. Type 'backwards' to pull a u-turn and get seperataion that way")
+      if (direction == "forward") {
+        alert("You weren't able to outdrive the cops. They managed to pull you over")
+      }
+      else {
+        alert("You turned too fast and your car rolled over. In the mean time, the cops pulled you over")  
+      }
+      var shoot = prompt("Type 'shoot' to pull out your gun and shoot the cops. Type 'run' to run away from the cops")
+      if (shoot == "shoot") {
+        alert("you realize your gun wasn't loaded, so it doesn't shoot. The cops arrest you and make you turn in all that you stole. You lose. ")
+      }
+      else {
+        alert("You begin a footrace with the cop")  
+      var tree = prompt("you come across a fallen tree. Type 'jump' to jump over it. Type 'duck' to duck under it")
+      if (tree == "jump") {
+        alert("You don't jump high enough and stumble. The cop gained ground on you")  
+      }
+      else {
+        alert("You succesfully duck under ther tree.")
+      }
+      var jaywalk = prompt("You reach an intercection and the stop hand is showing instead of the walk. Type 'jaywalk' to jaywalk. Type 'turn' to trun the other way.")
+      if (jaywalk == "jaywalk") {
+        alert("You managed to make it through safely, but the cop jaywalked too, so you didn't gain any ground")
+      }
+      else {
+        alert("You turned succesfully, but you need to correct your course to get back home")
+      }
+      var crowd = prompt("You come across a busy sidewalk. Type 'fast' to run throguh the crowd. Type 'slow' to slowly work your way through the people")
+      if (crowd == "fast") {
+        alert("You run over someone, allowing the cop to gain ground on you")
+      }
+      else {
+        alert("You take it slow losing precious time, but not hurting anyone else")
+      }
+      var trip = prompt("The cop is right behind you. Type 'trip' to slow down and trip him, type 'run' to keep running")
+      if (trip == "trip") {
+        alert("You trip the cop and injure him bad enough that you can get away. You win!")
+      }
+      else {
+        alert("you continue running from the cop.")
+      var drop = prompt("As you run you drop $1000 of money. Type 'back' to run back for it. Type 'run' to keep running")
+      if (drop == "back") {
+        alert("As you ran back. The cop caught you and took you to jail. You lose.")
+      }
+      else {
+        alert("You lost $1000 but kept the chase going")
+      var carjack = prompt("You decide to steal a car to get away. Type 'black' to steal the black car. Type 'red' to steal the red car")
+      if (carjack == "black") {
+        alert("You choose the chose the right car! you steal it and drive away from the cops. You win!")
+      }
+      else {
+        alert("You choose the wrong car. It was locked. and in your effort to steal it the cop caught you and arrested you. You lose.")
+      }
+      }
+      }
+      }
+      
+    };
+    
+     document.getElementById("woods").onclick = function() {
+       
+       var water = prompt("Okay lets go! Type 'food' to search for food. Type 'water' to search for water")
+       if (water == "food") {
+         alert("You come across a bush of berries you don't recgonize")
+       var eat = prompt("Type 'eat' to eat the berries. Type 'leave' to leave the berries")
+       if (eat == "eat") {
+         alert("The berries are harmless. You are no longer hungry")
+       }
+       else {
+         alert("You pass on the berries. so you need to continue looking for food")
+       var squirrel = prompt("You come across a squirrel. Type 'shoot' to shoot it, Type 'stab' to chase it down and stab it.")
+       if (squirrel == "shoot") {
+         alert("you kill the squirrel, but use a precious bullet")
+       }
+       else {
+         alert("You manage to chase down and kill the squirrel")
+       }
+       }
+       var drink = prompt("Next you look for water. You come across a river, but you're not sure how clean the water is. Type 'drink' to drink some. Type 'wait' to bring some back to camp to boil it")
+       if (drink == "wait") {
+         alert("You bring some water back to boil it later")
+       }
+       else {
+         alert("You drink some of the water and get sick. You still need water, so you bring some back to camp to purify later")
+       }
+       }
+       else {
+          alert("you come across a river")
+       var drink = prompt("You're not sure how clean the water is. Type 'drink' to drink some. Type 'wait' to bring some back to camp to boil it")
+       if (drink == "wait") {
+         alert("You bring some water back to boil it later")
+       }
+       else {
+         alert("You drink some of the water and get sick. You still need water, so you bring some back to camp to purify later")
+       }
+       var food = prompt("Next you look for food. You come across a bush of berries you don't recgonize. Type 'eat' to eat the berries. Type 'leave' to leave the berries")
+       if (food == "eat") {
+         alert("The berries are harmless. You are no longer hungry")
+       } 
+         else {
+           alert("You pass on the berries. so you need to continue looking for food")
+         var squirrel = prompt("You come across a squirrel. Type 'shoot' to shoot it, Type 'stab' to chase it down and stab it.")
+       if (squirrel == "shoot") {
+         alert("you kill the squirrel, but use a precious bullet")
+       }
+       else {
+         alert("You manage to chase down and kill the squirrel")
+       }
+       }
+       }
+      var shelter = prompt("Type 'shelter' to build a shelter next. Tpye 'fire' to build a fire")
+      if (shelter == "fire") {
+        alert("As you build you're fire it starts to rain")
+      var persist = prompt("Type 'continue' to keep building the fire. Type 'stop' to start building a shelter")
+      if (persist == "stop") {
+        alert("You chose to build a shelter")
+      }
+      else {
+        alert("All your firewood is too wet to ignite. You're froced to build a shelter and look for new firewood later")
+      }
+      var shape = prompt("Type 'tripod' to build a tripod shelter. Type 'square' to build a square shelter")
+      if (shape == "tripod") {
+        alert("You are not able to get your shelter up before dark, so you have to sleep in the rain and get it up in the morining. You go to bed thristy since you didn't boil water, and wake up with tons of mosquito bites because you didn't have a fire to fend off bugs")
+      }
+      else{
+        alert("You get you're shelter up, but the wasted time trying to build a fire earlier means you don't have time to build one now. You go to bed thristy since you can't boil water, and wake up with tons of mosquito bites because you didn't have a fire to fend off bugs")
+      }
+      }
+      else {
+      alert("You choose to build a shelter")
+      var shape = prompt("Type 'tripod' to build a tripod shelter. Type 'square' to build a square shelter")
+      if (shape == "tripod") {
+        alert("You eventually get the tripod to stay up, but spend so much time on it that you don't have time to build a fire")
+        alert("You go to bed thristy since you can't boil water, and wake up with tons of mosquito bites because you didn't have a fire to fend off bugs")
+      }
+      else{
+        alert("You get you're shelter up quickly and still have daylight to build a fire")
+      var style = prompt("Type 'teepee' to build a teepee style fire. type 'log cabin' to build a log cabin style fire")
+      if (style == "log cabin") {
+        alert("You build a log cabin fire and boil your water")
+      }
+      else {
+        alert("You build a teepee fire and boil your water")
+      }
+      var off = prompt("Type 'put out' to put your fire out before bed. Type 'continue' to keep it going through the night")
+      if (off == "continue") {
+        alert("You fire fends off the bugs. You wake up the next morning with no bug bites")
+      }
+      else {
+        alert("With no fire to scare them off, bugs bite you all night long. You wake up with tons of bug bites")
+      }
+      }
+      }
+      var hunt = prompt("As you go to the river to search for water, you spot a deer. Type 'gun' to run to your shelter to get your gun to shoot it. Type 'river' to continue on to the river")
+      if (hunt == "river") {
+      alert("You continue on to the river without a deer or a gun")
+      var bear = prompt("You get your water and head back to camp. On your way back you see a bear. Type 'attack' to attack it type 'play' to play dead.")
+      if (bear == "attack") {
+      alert("Because you don't have your gun, the bear mauls you and kills you. You lose.") 
+      }
+      else {
+        alert("You get back to camp unharmed")
+            var signal = prompt("You decide to signal that you are lost. Do you fire type 'shots' to fire 3 shots in the air. Type 'bonfire' to build a bonfire")
+      if (signal == "shots") {
+        alert("Nobody heard you shots, you just wasted 3 bullets.")
+      }
+      else {
+        alert("There are no planes overhead to see the smoke, but now you have a fire built")
+      }
+      var scream = prompt("You hear a scream. Type 'towards' to run towards the scream. Type 'away' to run away from the scream")
+      if (scream == "towards") {
+        alert("You run to the scream and find a person lying on the ground with a leg injury.")
+      var camp = prompt("You have some bandage with you, but have painkillers at your campsite. Type 'stay' to stay where you are, type 'campsite' to go back to your camp and get the painkillers.")
+      if (camp == "campsite") {
+        alert("You wrap his leg with your bandage then run back to your campsite to get him painkillers. You're able to find him again and give him your painkillers")
+      }
+      else {
+        alert("You wrap his leg with your bandage, and make him tough out his injury with no painkillers")
+      }
+      alert("After you treat him you realize he is a park ranger working in the forest. He is able to guide you back to safety. You win!")
+      } 
+      var trail = prompt("You come across two trails. One goes to the left and the other goes to the right. Type 'left' to take the left trail, type 'right' to take the right trail") 
+        if (trail == "left") {
+          alert("You follow the left trail and it leads you to a park rangers office. They give you food and water and bring you back to civilization. You win!")
+        }
+        else {
+          alert("You follow the right trail and it leads you to a dead end. You try to head back to your shelter but end up getting lost. A few days later you die of dehydration. You lose.")
+        }  
+      }
+      }
+      else {
+      alert("You run back to camp, but by the time you find your gun and head back the deer is gone. But now you have your gun on you.")
+      var bear = prompt("You get your water and head back to camp. On your way back you see a bear. Type 'attack' to attack it type 'play' to play dead.")
+      if (bear == "attack") {
+        alert("Since you choose to run back and get you gun, you managed to shoot and kill the bear. You take him back to camp to cook him")
+      }
+      else {
+        alert("You get back to camp unharmed")
+      }
+      var signal = prompt("You decide to signal that you are lost. Do you fire type 'shots' to fire 3 shots in the air. Type 'bonfire' to build a bonfire")
+      if (signal == "shots") {
+        alert("Nobody heard you shots, you just wasted 3 bullets.")
+      }
+      else {
+        alert("There are no planes overhead to see the smoke, but now you have a fire built")
+      }
+      var scream = prompt("You hear a scream. Type 'towards' to run towards the scream. Type 'away' to run away from the scream")
+      if (scream == "towards") {
+        alert("You run to the scream and find a person lying on the ground with a leg injury.")
+      var camp = prompt("You have some bandage with you, but have painkillers at your campsite. Type 'stay' to stay where you are, type 'campsite' to go back to your camp and get the painkillers.")
+      if (camp == "campsite") {
+        alert("You wrap his leg with your bandage then run back to your campsite to get him painkillers. You're able to find him again and give him your painkillers")
+      }
+      else {
+        alert("You wrap his leg with your bandage, and make him tough out his injury with no painkillers")
+      }
+      alert("After you treat him you realize he is a park ranger working in the forest. He is able to guide you back to safety. You win!")
+      } 
+      else {
+      var trail = prompt("You come across two trails. One goes to the left and the other goes to the right. Type 'left' to take the left trail, type 'right' to take the right trail") 
+        if (trail == "left") {
+          alert("You follow the left trail and it leads you to a park rangers office. They give you food and water and bring you back to civilization. You win!")
+        }
+        else {
+          alert("You follow the right trail and it leads you to a dead end. You try to head back to your shelter but end up getting lost. A few days later you die of dehydration. You lose.")
+        }
+      }
+      }
+     }
+     
+     document.getElementById("football").onclick = function() {
+      var endzone = 100
+      alert("Lets go. There are two minutes left in the game. Your team is down by 3 and you just got the ball.")
+      var kickoff = prompt ("You recive the kickoff in the endzone. Type 'return' to bring it out of the endzone. Type 'knee' to take a knee")
+        if (kickoff == "return") {
+          alert("You're able to return the kickoff to your own 30")
+      endzone = endzone - 30  
+      while (endzone == 0) {
+        alert("You scored a Touchdown. You Win! (Disregard the rest of the game)")
+        endzone = 1
+      }
+        }
+        else {
+          alert("You take a knee so you get the ball at the 25")
+          endzone = endzone - 25
+          while (endzone == 0) {
+            alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+            endzone = 1
+            }
+        }
+        var play = prompt ("Type 'run' to do a run. Type 'pass' to do a pass")
+          if (play == "run") {
+            alert("You get a 10 yard run")
+            endzone = endzone - 10
+            while (endzone == 0) {
+               alert("You scored a Touchdown. You Win! (Disregard the rest of the game)")
+               endzone = 1
+              }
+          }
+          else {
+            var reciver = prompt ("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3.")
+            if (reciver == "2") {
+              alert("Your pass was incomplete")
+            }
+            else {
+              alert("Your pass was complete. You gained 20 yards")
+              endzone = endzone - 20
+              while (endzone == 0) {
+                alert("You scored a Touchdown. You Win! (Disregard the rest of the game)")
+                endzone = 1
+              }
+            }
+          }
+          var play = prompt ("Type 'run' to do a run. Type 'pass' to do a pass")
+            if (play == "run") {
+              alert("you had a 5 yard run")
+              endzone - endzone - 5
+              while (endzone == 0) {
+                alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                endzone = 1
+                }
+            }
+            else {
+            var reciver = prompt ("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3.")
+            if (reciver == "3") {
+              alert("You completed a 30 yard pass")
+              endzone = endzone - 30
+              while (endzone == 0) {
+                alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                endzone = 1
+                }
+            }
+            else {
+               alert("Your pass was incomplete")
+            }
+            }
+            var trickplay = prompt("You chose to run a trick play. Type 'statue' to run the statue of liberty. Type 'flea' do do a flea flicker")
+            if (trickplay == "statue") {
+              alert("You get sacked before you can hand the ball off. You lose 5 yards")
+              endzone = endzone + 5
+            }
+            else {
+              alert("You succesfully complete the flea flicker and gain 25 yards")
+              endzone = endzone - 25
+              while (endzone == 0) {
+                alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                endzone = 1
+                }
+            }
+            var play = prompt ("Type 'run' to do a run. Type 'pass' to do a pass")
+              if (play == "run") {
+                alert("You get a 10 yard run")
+                endzone = endzone - 10
+              while (endzone == 0) {
+                alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                endzone = 1
+                }
+              }
+              else {
+                var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                  if (recivers == "3") {
+                    alert("Your pass was incomplete")
+                  }
+                  else {
+                    alert("You completed a 15 yard pass")
+                    endzone = endzone - 15
+                  }
+              }
+            var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
+              if (play == "run") {
+                alert("You fumbled the ball. The other team recovered and ran the clock out. You lose.")
+              }
+                 else {
+                    var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                    if (recivers == "1") {
+                      alert("you threw an interception. You lose")
+                    }
+                    else {
+                      alert("You completed a 30 yard pass")
+                      endzone = endzone - 30
+                  while (endzone == 0) {
+                    alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                  endzone = 1
+                }
+              var risk = prompt("You only have time for 1 more play. Type 'hail' to throw a hail mary and potentially win the game. Type 'kick' to kick a feid goal and send it to overtime")
+              if (risk == "hail") {
+                var hailmary = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                if (hailmary == "2") {
+                  alert("You completed the hail mary and scored a touchdown. You Win!")
+                }
+                else {
+                  alert("Your pass was incomplete. Time expired. You lose.")
+                }
+              }
+              else {
+                var kick = prompt("Type '1' '2' or '3'")
+                if (kick == "2") {
+                  alert("Your feild goal was no good. Time expired. You lose")
+                }
+                  else {
+                  alert("You make the feild goal and send the game into overtime")
+                 var coin = ("You begin overtime with a coin toss. Type 'heads' to choose heads. Type 'tails' to choose tails")
+                 if (coin == "heads") {
+                   alert("The other team won the coin toss and elected to recive. They drove down to score a touchdown. You lose.")
+                 }
+                 else {
+                   alert("You win the coin toss so you get the ball")
+                 var kickoff = prompt("You recive the kickoff. Type 'knee' to take a knee in the endzone. Type 'return' to return the kick.")
+                 if (kickoff == "return") {
+                   alert("You returned the kickoff to your own 40")
+                   touchdown = touchdown - 40
+                 }
+                 else {
+                   alert("You took a knee, so you get the ball at your own 25")
+                   touchdown = touchdown - 25
+                 }
+                 var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
+                    if (play == "run") {
+                      alert("You get a 15 yard run")
+                      touchdown = touchdown - 15
+                    }
+                    else {
+                    var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                      if (recivers == "1") {
+                        alert("Your pass was incomplete")
+                      }
+                      else {
+                        alert("You completed a 25 yard pass")
+                      touchdown = touchdown - 25
+                      }
+                    }
+                  var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
+                    if (play == "run") {
+                      alert("You get a 30 yard run")
+                      touchdown = touchdown - 30
+                    }
+                    else {
+                    var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                      if (recivers == "2") {
+                        alert("Your pass was incomplete")
+                      }
+                      else {
+                        alert("You completed a 15 yard pass")
+                      touchdown = touchdown - 15
+                      }
+                    }
+                  var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
+                    if (play == "run") {
+                      alert("You fumbled the ball. The other team recovered and scored. You lose")
+                    }
+                    else {
+                    var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                      if (recivers == "3") {
+                        alert("Your pass was incomplete")
+                      }
+                      else {
+                        alert("You completed a 20 yard pass")
+                      touchdown = touchdown - 20
+                      while (endzone == 0) {
+                        alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                        endzone = 1
+                      }
+                      }
+                    var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
+                    if (play == "run") {
+                      alert("You got a 15 yard run")
+                      touchdown = touchdown - 20
+                      while (endzone == 0) {
+                        alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
+                        endzone = 1
+                      }
+                    }
+                    else {
+                      var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                      if (recivers == "1") {
+                      alert("You threw an interception. The other team returned it for a touchdown. You lose.")
+                      }
+                      else {
+                        alert("You complete a pass for 25 yards.")
+                      var end = prompt("It is 4th down and you decide to go for it. Type 'run' to do a run. Type 'pass' to do a pass")
+                      if (end == "run") {
+                        alert("You break free from the tacklers and are able to score a touchdown. You Win!")
+                      }
+                      else {
+                       var recivers = prompt("Type '1' to pass to reciver 1. Type '2' to pass to reciver 2. Type '3' to pass to reciver 3")
+                       if (recivers == "2") {
+                         alert("You completed a pass to the endzone. You scored a touchdown. You Win!")
+                       }
+                       else {
+                         alert("Your pass was incomplete. The other team takes over possesion and scores. You lose")
+                       }
+                      }
+                  }
+                  }  
+                  }
+                  }
+                  }
+                  }
+                  }
+                  }
+  
+     }
+
+</script>
+
+    </body>
+  </html>
