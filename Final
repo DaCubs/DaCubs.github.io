@@ -11,7 +11,7 @@
     <body>
 <style>
   #robbery  {
-  font-size: 50px;
+  font-size: 150px;
   font-weight: bold;
   color: gold;
   background-color: black;
@@ -20,7 +20,7 @@
       }
     
 #woods {
-        font-size: 50px;
+        font-size: 150px;
 <        font-weight: bold;
         color:green;
         background-color: lightblue;
@@ -30,7 +30,7 @@
 }
 
 #football {
-  font-size: 50px;
+  font-size: 150px;
   font-weight: bold;
   color: red;
   background-color: purple;
