@@ -332,7 +332,7 @@ img {
         if (kickoff == "return") {
           alert("You're able to return the kickoff to your own 30")
       endzone = endzone - 30  
-      while (endzone == 0) {
+      while (endzone <= 0) {
         alert("You scored a Touchdown. You Win! (Disregard the rest of the game)")
         endzone = 1
       }
@@ -340,7 +340,7 @@ img {
         else {
           alert("You take a knee so you get the ball at the 25")
           endzone = endzone - 25
-          while (endzone == 0) {
+          while (endzone <= 0) {
             alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
             endzone = 1
             }
@@ -349,7 +349,7 @@ img {
           if (play == "run") {
             alert("You get a 10 yard run")
             endzone = endzone - 10
-            while (endzone == 0) {
+            while (endzone <= 0) {
                alert("You scored a Touchdown. You Win! (Disregard the rest of the game)")
                endzone = 1
               }
@@ -362,7 +362,7 @@ img {
             else {
               alert("Your pass was complete. You gained 20 yards")
               endzone = endzone - 20
-              while (endzone == 0) {
+              while (endzone <= 0) {
                 alert("You scored a Touchdown. You Win! (Disregard the rest of the game)")
                 endzone = 1
               }
@@ -372,7 +372,7 @@ img {
             if (play == "run") {
               alert("you had a 5 yard run")
               endzone - endzone - 5
-              while (endzone == 0) {
+              while (endzone <= 0) {
                 alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                 endzone = 1
                 }
@@ -382,7 +382,7 @@ img {
             if (reciver == "3") {
               alert("You completed a 30 yard pass")
               endzone = endzone - 30
-              while (endzone == 0) {
+              while (endzone <= 0) {
                 alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                 endzone = 1
                 }
@@ -399,7 +399,7 @@ img {
             else {
               alert("You succesfully complete the flea flicker and gain 25 yards")
               endzone = endzone - 25
-              while (endzone == 0) {
+              while (endzone <= 0) {
                 alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                 endzone = 1
                 }
@@ -408,7 +408,7 @@ img {
               if (play == "run") {
                 alert("You get a 10 yard run")
                 endzone = endzone - 10
-              while (endzone == 0) {
+              while (endzone <= 0) {
                 alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                 endzone = 1
                 }
@@ -435,7 +435,7 @@ img {
                     else {
                       alert("You completed a 30 yard pass")
                       endzone = endzone - 30
-                  while (endzone == 0) {
+                  while (endzone <= 0) {
                     alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                   endzone = 1
                 }
@@ -514,7 +514,7 @@ img {
                       else {
                         alert("You completed a 20 yard pass")
                       touchdown = touchdown - 20
-                      while (endzone == 0) {
+                      while (endzone <= 0) {
                         alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                         endzone = 1
                       }
@@ -522,8 +522,8 @@ img {
                     var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
                     if (play == "run") {
                       alert("You got a 15 yard run")
-                      touchdown = touchdown - 20
-                      while (endzone == 0) {
+                      touchdown = touchdown - 15
+                      while (endzone <= 0) {
                         alert("You scored a Touchdown. You Win! (disregard the rest of the game)")
                         endzone = 1
                       }
@@ -535,6 +535,8 @@ img {
                       }
                       else {
                         alert("You complete a pass for 25 yards.")
+                      }
+                    }
                       var end = prompt("It is 4th down and you decide to go for it. Type 'run' to do a run. Type 'pass' to do a pass")
                       if (end == "run") {
                         alert("You break free from the tacklers and are able to score a touchdown. You Win!")
@@ -548,8 +550,6 @@ img {
                          alert("Your pass was incomplete. The other team takes over possesion and scores. You lose")
                        }
                       }
-                  }
-                  }  
                   }
                   }
                   }
