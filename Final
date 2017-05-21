@@ -21,7 +21,7 @@
     
 #woods {
         font-size: 50px;
-<        font-weight: bold;
+        font-weight: bold;
         color:green;
         background-color: lightblue;
         text-decoration: underline;
@@ -456,12 +456,13 @@ img {
                 }
                   else {
                   alert("You make the feild goal and send the game into overtime")
-                 var coin = ("You begin overtime with a coin toss. Type 'heads' to choose heads. Type 'tails' to choose tails")
+                 var coin = prompt("You begin overtime with a coin toss. Type 'heads' to choose heads. Type 'tails' to choose tails")
                  if (coin == "heads") {
                    alert("The other team won the coin toss and elected to recive. They drove down to score a touchdown. You lose.")
                  }
                  else {
-                   alert("You win the coin toss so you get the ball")
+                   var touchdown = 100
+                alert("You win the coin toss so you get the ball")
                  var kickoff = prompt("You recive the kickoff. Type 'knee' to take a knee in the endzone. Type 'return' to return the kick.")
                  if (kickoff == "return") {
                    alert("You returned the kickoff to your own 40")
@@ -471,7 +472,7 @@ img {
                    alert("You took a knee, so you get the ball at your own 25")
                    touchdown = touchdown - 25
                  }
-                 var play = prompt("Type 'run to do a run. Type 'pass' to do a pass")
+                 var play = prompt("Type 'run' to do a run. Type 'pass' to do a pass")
                     if (play == "run") {
                       alert("You get a 15 yard run")
                       touchdown = touchdown - 15
