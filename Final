@@ -47,7 +47,7 @@ img {
 <button id="woods">Lost in the woods</button>
 <button id="football">Football Game</button>
 
-<p><img src="https://www.google.com/imgres?imgurl=http%3A%2F%2Fweknowyourdreams.com%2Fimages%2Fjewelry%2Fjewelry-06.jpg&imgrefurl=http%3A%2F%2Fweknowyourdreams.com%2Fjewelry.html&docid=N0mLwf2000yTcM&tbnid=Rq6sEvTq17HI5M%3A&vet=10ahUKEwic4u6Q-fzTAhVK_WMKHaZ0A7cQMwihASgFMAU..i&w=3507&h=2224&bih=855&biw=1440&q=jewelry&ved=0ahUKEwic4u6Q-fzTAhVK_WMKHaZ0A7cQMwihASgFMAU&iact=mrc&uact=8" alt="Jewelry" style="width: 275px; height: 225px; float:left"></p>
+<p><img src="jewelry.jpg" alt="Jewelry" style="width: 275px; height: 225px; float:left"></p>
 <p><img src="robber.jpg" alt="Robber" style="width: 250px; height: 225px; float:right"></p>
 <p><img src="Woods.jpg" alt="Woods" style="width: 275px; height: 225px; float:left"></p>
 <p><img src="river.jpg" alt="River" style="width: 250px; height: 225px; float:right"></p>
